@@ -1,0 +1,14 @@
+*{
+    text-align: center;
+    color:whitesmoke;
+    background-color: black;
+
+}
+.place{
+    color:aquamarine;
+    text-decoration: none;
+}
+li {
+    border: 2px;
+    border-color: whitesmoke;
+}
