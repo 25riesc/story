@@ -2,13 +2,37 @@
     text-align: center;
     color:whitesmoke;
     background-color: black;
+    font-family:'Courier New';
+
 
 }
 .place{
     color:aquamarine;
     text-decoration: none;
 }
+.choice {
+    justify-content: space-between;
+    display:list-item;
+    /* display:grid; */
+    list-style:none;
+  margin-left: -.7%;
+  margin-right: -.7%;
+  /* transform: translateX(-50%);  */
+    outline: 3px solid whitesmoke;
+    /* list-style-position: inside; */
+/* align-content: center; */
+}
 li {
-    border: 2px;
-    border-color: whitesmoke;
+    justify-content: space-between;
+    display:list-item;
+    list-style:none;
+  margin-left: -.7%;
+  margin-right: -.7%;
+    outline: 3px solid whitesmoke;
+}
+
+.back{
+    text-align: left;
+    align-content: flex-end;
+    align-items: flex-end;
 }
